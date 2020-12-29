@@ -9,7 +9,7 @@ export default class extends AbstractView {
 
     async getHtml() {
         return `
-            <form action="/sign"></form>
+            <form action="/sign/"></form>
         `;
     }
 }
